@@ -1,0 +1,18 @@
+#开发
+server:
+  port: 9345
+  servlet.context-path: /dev
+
+A: "测试"
+B: "复制"
+C: 1
+D: "A:${A},B:${B},C:${C}"
+
+boy:
+  A: "boy测试"
+  B: "boy测试"
+  C: 2
+  D: "A:${boy.A},B:${boy.B},C:${boy.C},A:${A},B:${B},C:${C}"
+
+
+

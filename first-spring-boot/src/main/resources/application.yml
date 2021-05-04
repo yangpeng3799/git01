@@ -1,0 +1,6 @@
+#server:
+#   port: 9092
+#   servlet.context-path: /test
+spring:
+  profiles:
+    active: test

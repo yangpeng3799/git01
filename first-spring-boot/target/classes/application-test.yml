@@ -1,0 +1,25 @@
+#测试
+server:
+  port: 9456
+  servlet.context-path: /test
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@127.0.0.1:1521:xe
+    username: javauser
+    password: root
+    type: com.alibaba.druid.pool.DruidDataSource
+  jpa:
+    hibernate-core:
+      ddl-auto: update
+    show-sql: true
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+mybatis:
+  mapper-locations: classpath:com/yp/springboot/mapper/*.xml
+A: "测试"
+B: "复制"
+C: 1
+D: "A:${A},B:${B},C:${C}"

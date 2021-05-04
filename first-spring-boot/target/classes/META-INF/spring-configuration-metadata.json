@@ -1,0 +1,57 @@
+{
+  "groups": [
+    {
+      "name": "boy",
+      "type": "com.yp.springboot.model.User",
+      "sourceType": "com.yp.springboot.model.User"
+    }
+  ],
+  "properties": [
+    {
+      "name": "boy.a",
+      "type": "java.lang.String",
+      "sourceType": "com.yp.springboot.model.User"
+    },
+    {
+      "name": "boy.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.yp.springboot.model.User"
+    },
+    {
+      "name": "boy.b",
+      "type": "java.lang.String",
+      "sourceType": "com.yp.springboot.model.User"
+    },
+    {
+      "name": "boy.c",
+      "type": "java.lang.Integer",
+      "sourceType": "com.yp.springboot.model.User"
+    },
+    {
+      "name": "boy.d",
+      "type": "java.lang.String",
+      "sourceType": "com.yp.springboot.model.User"
+    },
+    {
+      "name": "boy.desc",
+      "type": "java.lang.String",
+      "sourceType": "com.yp.springboot.model.User"
+    },
+    {
+      "name": "boy.name",
+      "type": "java.lang.String",
+      "sourceType": "com.yp.springboot.model.User"
+    },
+    {
+      "name": "boy.passowld",
+      "type": "java.lang.String",
+      "sourceType": "com.yp.springboot.model.User"
+    },
+    {
+      "name": "boy.stattime",
+      "type": "java.util.Date",
+      "sourceType": "com.yp.springboot.model.User"
+    }
+  ],
+  "hints": []
+}
